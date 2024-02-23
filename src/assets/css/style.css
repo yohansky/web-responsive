@@ -1,11 +1,8 @@
 /* Login */
 #login * {
+  /* // cara panggil #login menggunakan id */
   font-family: "Metropolis";
   margin-top: 5px;
-}
-
-#login .btn-group {
-  background-color: red;
 }
 
 #login .atas {
@@ -39,7 +36,6 @@
   height: 48px;
   top: 524px;
   left: 519px;
-  background-color: red;
 }
 
 #login .bawah {
@@ -67,12 +63,6 @@
 #registers * {
   font-family: "Metropolis";
   margin-top: 5px;
-}
-
-#registers .btn-group .btn-outline-primary {
-  background-color: red;
-  border-color: red;
-  color: white; /* Adjust text color for better contrast */
 }
 
 #registers .atas {
