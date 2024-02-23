@@ -1,0 +1,204 @@
+/* Login */
+#login * {
+  font-family: "Metropolis";
+  margin-top: 5px;
+}
+
+#login .btn-group {
+  background-color: red;
+}
+
+#login .atas {
+  text-align: center;
+}
+
+#login .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login .form-control {
+  width: 400px;
+  height: 48px;
+  top: 346px;
+  left: 519px;
+}
+
+#login .tengah {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: right;
+  color: red;
+}
+
+#login .btn-primary {
+  width: 401px;
+  height: 48px;
+  top: 524px;
+  left: 519px;
+  background-color: red;
+}
+
+#login .bawah {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* #login .container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 450px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+} */
+/* End Login */
+
+/* Register Seller */
+#registers * {
+  font-family: "Metropolis";
+  margin-top: 5px;
+}
+
+#registers .btn-group .btn-outline-primary {
+  background-color: red;
+  border-color: red;
+  color: white; /* Adjust text color for better contrast */
+}
+
+#registers .atas {
+  text-align: center;
+}
+
+#registers .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* end Register Seller */
+
+/* Register Customer */
+#registerc * {
+  font-family: "Metropolis";
+  margin-top: 5px;
+}
+
+/* end Register Customer */
+/* Forgot Pass */
+#forgotpass * {
+  font-family: "Metropolis";
+  margin-top: 5px;
+}
+
+/*end Forgot Pass*/
+
+/* Navbar */
+#navbar * {
+  font-family: "Metropolis";
+}
+#navbar .navbar {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 6px 40px 0px #adadad40;
+}
+
+#navbar .search {
+  width: 507px;
+  border-radius: 20px;
+  border-color: #9b9b9b;
+  margin-left: 60px;
+}
+
+#navbar .search::placeholder {
+  color: #9b9b9b;
+  padding-left: 10px;
+}
+
+#navbar .iconSearch {
+  margin-left: -30px;
+  color: #9b9b9b;
+}
+
+#navbar .filter {
+  font-size: 20px;
+  color: #9b9b9b;
+  margin-left: 20px;
+  margin-right: 60px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #9b9b9b;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+#navbar .cart {
+  font-size: 24px;
+  color: #9b9b9b;
+  margin: 0 20px;
+}
+#navbar .login {
+  width: 100px;
+  height: 36px;
+  color: white;
+  background-color: #db3022;
+  margin: 0 20px;
+  padding: 5px;
+}
+#navbar .login:hover {
+  color: white;
+  background-color: red;
+}
+
+#navbar .register {
+  width: 100px;
+  height: 36px;
+  color: #9b9b9b;
+  border: 1px solid;
+  border-color: #9b9b9b;
+  padding: 5px;
+}
+
+#navbar .register:hover {
+  color: white;
+  background-color: #9b9b9b;
+}
+
+@media screen and (max-width: 499px) {
+  #navbar .search {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #navbar .iconSearch {
+    display: none;
+  }
+
+  #navbar .filter {
+    display: none;
+  }
+
+  #navbar .wrap {
+    margin-top: 10px;
+  }
+}
+/* end Navbar */
+/* Home */
+#home * {
+  font-family: "Arial";
+  margin-top: 5px;
+}
+
+/* End Home*/
