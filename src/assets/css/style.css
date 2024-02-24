@@ -74,6 +74,20 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#registers .btn-primary {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#registers .bawah {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 /* end Register Seller */
 
 /* Register Customer */
@@ -82,7 +96,31 @@
   margin-top: 5px;
 }
 
+#registerc .atas {
+  text-align: center;
+}
+
+#registerc .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#registerc .btn-primary {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#registerc .bawah {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 /* end Register Customer */
+
 /* Forgot Pass */
 #forgotpass * {
   font-family: "Metropolis";
@@ -185,6 +223,91 @@
   }
 }
 /* end Navbar */
+
+/* Navbar Login */
+#navbarLogin .navbar {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 6px 40px 0px #adadad40;
+}
+
+#navbarLogin .search {
+  width: 507px;
+  border-radius: 20px;
+  border-color: #9b9b9b;
+  margin-left: 60px;
+}
+
+#navbarLogin .search::placeholder {
+  color: #9b9b9b;
+  padding-left: 10px;
+}
+
+#navbarLogin .iconSearch {
+  margin-left: -30px;
+  color: #9b9b9b;
+}
+
+#navbarLogin .filter {
+  font-size: 20px;
+  color: #9b9b9b;
+  margin-left: 20px;
+  margin-right: 140px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #9b9b9b;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+#navbarLogin .cart {
+  font-size: 24px;
+  color: #9b9b9b;
+  margin: 0 20px;
+}
+
+#navbarLogin .bell {
+  font-size: 24px;
+  color: #9b9b9b;
+  margin: 0 20px;
+}
+
+#navbarLogin .massage {
+  font-size: 24px;
+  color: #9b9b9b;
+  margin: 0 20px;
+}
+
+#navbarLogin .profile {
+  font-size: 32px;
+  color: #9b9b9b;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 499px) {
+  #navbarLogin .search {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #navbarLogin .iconSearch {
+    display: none;
+  }
+
+  #navbarLogin .filter {
+    display: none;
+  }
+
+  #navbarLogin .wrap {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+/* end Navbar Login */
 /* Home */
 #home * {
   font-family: "Arial";
@@ -192,3 +315,105 @@
 }
 
 /* End Home*/
+/* My bag */
+#bag * {
+  font-family: Metropolis;
+  margin-top: 5px;
+}
+
+#bag .container1 {
+  border: 1px solid black;
+  width: 720px;
+  height: 64px;
+  top: 214px;
+  left: 150px;
+  border-radius: 4px;
+  padding: 10px;
+  /*batas kiri,kanan,atas,bawah*/
+  margin: 10px;
+  /* batas antar border dengan sisi atas dan bawah*/
+}
+
+#bag .container2 {
+  border: 1px solid black;
+  width: 720px;
+  height: 100px;
+  top: 298px;
+  left: 150px;
+  border-radius: 4px;
+  padding: 15px;
+  /*batas kiri,kanan,atas,bawah*/
+  margin: 10px;
+  /* batas antar border dengan sisi atas dan bawah*/
+}
+
+#bag .container3 {
+  position: absolute;
+  border: 1px solid black;
+  width: 470px;
+  height: 180px;
+  top: 110px;
+  left: 920px;
+  border-radius: 4px;
+  padding: 15px;
+  /*batas kiri,kanan,atas,bawah*/
+  margin: 10px;
+  /* batas antar border dengan sisi atas dan bawah*/
+}
+
+#bag .btn-primary {
+  width: 401px;
+  height: 48px;
+  top: 524px;
+  left: 519px;
+}
+
+/* #bag .box-select-all {
+  margin: 20px;
+  width: 720px;
+  height: 64px;
+  border: 5px;
+  padding: 15px;
+  background-color: lightgray;
+  box-shadow: 0px 6px 40px 0px #adadad40;
+}
+
+#bag .container-box {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#bag .container-box div {
+  text-align: center;
+  margin: 10px 5px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.box1 {
+  flex-grow: 1;
+  order: 1;
+}
+
+.box2 {
+  flex-grow: 2;
+  order: 2;
+}
+
+#bag .box3 {
+  flex-grow: 3;
+  order: 3;
+}
+
+#bag .box4 {
+  flex-grow: 4;
+  order: 4;
+} */
+
+/* end My bag */
